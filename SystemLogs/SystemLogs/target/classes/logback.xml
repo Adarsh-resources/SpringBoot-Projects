@@ -1,0 +1,110 @@
+<configuration>
+    <!-- Define appenders for each log level -->
+    <appender name="INFO_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/Adarsh/Desktop/SpringLogs/info.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="WARN_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/Adarsh/Desktop/SpringLogs/warn.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/Adarsh/Desktop/SpringLogs/error.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Define loggers for each log level -->
+    <logger name="com.example" level="info">
+        <appender-ref ref="INFO_FILE" />
+    </logger>
+
+    <logger name="com.example" level="warn">
+        <appender-ref ref="WARN_FILE" />
+    </logger>
+
+    <logger name="com.example" level="error">
+        <appender-ref ref="ERROR_FILE" />
+    </logger>
+
+    <!-- Set the root level to control the lowest level logged -->
+    <root level="info">
+        <appender-ref ref="INFO_FILE" />
+        <appender-ref ref="WARN_FILE" />
+        <appender-ref ref="ERROR_FILE" />
+    </root>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="WARN">-->
+<!--    <Appenders>-->
+<!--        <File name="INFO_FILE" fileName="C:/Users/Adarsh/Desktop/SpringLogs/info/log">-->
+<!--            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+
+<!--        <File name="WARN_FILE" fileName="C:/Users/Adarsh/Desktop/SpringLogs/warn.log">-->
+<!--            <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+
+<!--        <File name="ERROR_FILE" fileName="C:/Users/Adarsh/Desktop/SpringLogs/error.log">-->
+<!--            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+<!--    </Appenders>-->
+
+<!--    <Loggers>-->
+<!--        <Root level="info">-->
+<!--            <AppenderRef ref="INFO_FILE" level="info"/>-->
+<!--            <AppenderRef ref="WARN_FILE" level="warn"/>-->
+<!--            <AppenderRef ref="ERROR_FILE" level="error"/>-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->
+
+
+
+
+<!--        <configuration>-->
+<!--    <appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>C:/Users/Adarsh/Desktop/SpringLogs/info.log</file>-->
+<!--        <append>true</append>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <root level="info">-->
+<!--        <appender-ref ref="FILE" />-->
+<!--             <AppenderRef ref="INFO_FILE" level="info"/>-->
+<!--            <AppenderRef ref="WARN_FILE" level="warn"/>-->
+<!--           <AppenderRef ref="ERROR_FILE" level="error"/>-->
+<!--    </root>-->
+
+<!--</configuration>-->

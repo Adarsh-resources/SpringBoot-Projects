@@ -1,0 +1,113 @@
+2023-07-25 15:08:03.076 INFO  [main] c.systemlogs.SystemLogsApplication - This is an info message
+2023-07-25 15:08:03.083 WARN  [main] c.systemlogs.SystemLogsApplication - This is a warning message
+2023-07-25 15:08:03.083 ERROR [main] c.systemlogs.SystemLogsApplication - This is an error message
+java.lang.RuntimeException: Sample exception
+	at com.systemlogs.SystemLogsApplication.main(SystemLogsApplication.java:16)
+2023-07-25 15:08:14.213 INFO  [main] c.systemlogs.SystemLogsApplication - This is an info message
+2023-07-25 15:08:14.217 WARN  [main] c.systemlogs.SystemLogsApplication - This is a warning message
+2023-07-25 15:08:14.217 ERROR [main] c.systemlogs.SystemLogsApplication - This is an error message
+java.lang.RuntimeException: Sample exception
+	at com.systemlogs.SystemLogsApplication.main(SystemLogsApplication.java:16)
+2023-07-25 15:10:30.921 INFO  [main] c.systemlogs.SystemLogsApplication - This is an info message
+2023-07-25 15:10:30.925 WARN  [main] c.systemlogs.SystemLogsApplication - This is a warning message
+2023-07-25 15:10:30.926 ERROR [main] c.systemlogs.SystemLogsApplication - This is an error message
+java.lang.RuntimeException: Sample exception
+	at com.systemlogs.SystemLogsApplication.main(SystemLogsApplication.java:16)
+2023-07-25 15:14:22.277 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 17040 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:14:22.281 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:14:24.275 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:14:24.288 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:14:24.292 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:14:24.293 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:14:24.433 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:14:24.435 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1937 ms
+2023-07-25 15:14:25.353 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:14:25.389 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:14:25.401 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 5.109 seconds (process running for 6.499)
+2023-07-25 15:14:25.403 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:14:25.403 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:14:25.403 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:17:13.212 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 15736 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:17:13.214 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:17:14.700 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:17:14.711 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:17:14.714 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:17:14.714 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:17:14.842 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:17:14.844 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1565 ms
+2023-07-25 15:17:15.182 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:17:15.206 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:17:15.223 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 2.474 seconds (process running for 3.182)
+2023-07-25 15:17:15.225 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:17:15.225 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:17:15.225 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:21:05.235 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 14444 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:21:05.239 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:21:06.606 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:21:06.624 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:21:06.627 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:21:06.628 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:21:06.741 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:21:06.743 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1436 ms
+2023-07-25 15:21:07.124 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:21:07.149 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:21:07.158 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 2.403 seconds (process running for 3.209)
+2023-07-25 15:21:07.162 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:21:07.162 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:21:07.162 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:21:38.660 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 1836 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:21:38.665 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:21:39.957 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:21:39.966 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:21:39.969 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:21:39.969 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:21:40.078 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:21:40.080 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1343 ms
+2023-07-25 15:21:40.426 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:21:40.447 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:21:40.456 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 2.259 seconds (process running for 2.982)
+2023-07-25 15:21:40.459 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:21:40.459 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:21:40.459 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:22:28.689 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 3028 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:22:28.691 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:22:30.152 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:22:30.162 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:22:30.165 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:22:30.166 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:22:30.285 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:22:30.289 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1525 ms
+2023-07-25 15:22:30.818 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:22:30.838 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:22:30.848 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 2.648 seconds (process running for 3.382)
+2023-07-25 15:22:30.851 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:22:30.851 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:22:30.851 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:24:02.204 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 11852 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:24:02.206 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:24:04.766 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:24:04.780 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:24:04.784 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:24:04.785 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:24:04.950 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:24:04.953 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2653 ms
+2023-07-25 15:24:05.441 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:24:05.473 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:24:05.485 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 3.8 seconds (process running for 4.606)
+2023-07-25 15:24:05.489 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:24:05.490 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:24:05.490 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
+2023-07-25 15:28:36.751 INFO  [main] c.systemlogs.SystemLogsApplication - Starting SystemLogsApplication using Java 20.0.1 with PID 11248 (D:\SpringBoot\SystemLogs\SystemLogs\target\classes started by Adarsh in D:\SpringBoot\SystemLogs)
+2023-07-25 15:28:36.754 INFO  [main] c.systemlogs.SystemLogsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:28:38.481 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 15:28:38.495 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:28:38.499 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 15:28:38.499 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-25 15:28:38.611 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 15:28:38.612 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1706 ms
+2023-07-25 15:28:38.979 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-25 15:28:39.006 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 15:28:39.016 INFO  [main] c.systemlogs.SystemLogsApplication - Started SystemLogsApplication in 2.871 seconds (process running for 3.915)
+2023-07-25 15:28:39.018 INFO  [main] c.systemlogs.SystemLogsApplication - Info log message
+2023-07-25 15:28:39.019 WARN  [main] c.systemlogs.SystemLogsApplication - Warning log message
+2023-07-25 15:28:39.019 ERROR [main] c.systemlogs.SystemLogsApplication - Error log message
